@@ -1,5 +1,12 @@
 DevOps Pipeline for Node.js Application
 
+Endpoints:
+http://localhost:3000/status
+http://localhost:3000/health
+curl -X POST http://localhost:3000/process \
+
+
+
 This repository contains a production-ready DevOps pipeline and infrastructure setup for a simple Node.js web application. The project demonstrates how a modern DevOps workflow can be implemented using containerization, continuous integration, infrastructure as code, and secure deployment practices.
 
 The goal of this project is to simulate the process of joining a fast-growing engineering team and delivering a reliable, scalable, and secure deployment pipeline for a backend application.
